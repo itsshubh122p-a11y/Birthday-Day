@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Birthday Surprise for Muskan 🎂</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1️⃣ PROFILE SECTION -->
+  <section class="profile-section">
+    <div class="profile-container">
+      <img src="Assets/nursing.jpeg" alt="Muskan Profile" class="profile-image">
+      <h2 class="animate-glow">Muskan - Nursing Student 💖</h2>
+      <p>Dedicated, passionate, and amazing friend 🎓</p>
+    </div>
+  </section>
+
+  <!-- 2️⃣ HERO SECTION -->
+  <header class="hero glowing-hero">
+    <h1 class="animate-glow">Happy Birthday Muskan 🎂</h1>
+    <p>My Childhood Best Friend 💖</p>
+  </header>
+
+  <!-- ⏳ BIRTHDAY COUNTDOWN SECTION -->
+<section class="countdown-section">
+  <h2 class="animate-glow">🎂 Special-Day Countdown 🎂</h2>
+
+  <div class="countdown-timer">
+    <div class="time-box">
+      <span id="days">00</span>
+      <small>Days</small>
+    </div>
+    <div class="time-box">
+      <span id="hours">00</span>
+      <small>Hours</small>
+    </div>
+    <div class="time-box">
+      <span id="minutes">00</span>
+      <small>Minutes</small>
+    </div>
+    <div class="time-box">
+      <span id="seconds">00</span>
+      <small>Seconds</small>
+    </div>
+  </div>
+
+  <p class="countdown-note">
+    🎉 Counting every moment for <b>Muskan's 21st Birthday</b> 💖
+  </p>
+</section>
+
+<!-- 🎂 CAKE CUTTING SECTION -->
+<section class="cake-section">
+  <h2 class="animate-glow">🎂 Cut the Birthday Cake 🎂</h2>
+
+  <div class="cake-container">
+    <img src="Assets/cake.jpeg" id="cake" alt="Birthday Cake">
+  </div>
+
+  <p id="cakeMessage" class="cake-message"></p>
+</section>
+
+<!-- 🎵 Birthday Music -->
+<audio id="birthdayMusic" src="Assets/birthday.mp3.jpeg"></audio>
+
+
+  <!-- 📸 IT'S ME PHOTO COLLECTION SECTION -->
+<section class="its-me-section">
+  <h2 class="animate-glow">✨ It’s Me – Moments Collection ✨</h2>
+
+  <div class="photo-collection">
+    <img src="Assets/me1.jpeg" class="me-photo" alt="Muskan Photo 1">
+    <img src="Assets/me2.jpeg" class="me-photo" alt="Muskan Photo 2">
+    <img src="Assets/me3.jpeg" class="me-photo" alt="Muskan Photo 3">
+    <img src="Assets/me4.webp" class="me-photo" alt="Muskan Photo 4">
+    <img src="Assets/me5.jpeg" class="me-photo" alt="Muskan Photo 5">
+  </div>
+</section>
+
+
+  <!-- 3️⃣ BIRTHDAY MAGIC SECTION -->
+  <section class="birthday-magic-section">
+    <h2 class="animate-glow">🎁 Birthday Wishes & Surprise 🎁</h2>
+    <button class="btn magic-btn" onclick="generateWish()">Click for Birthday Surprise ✨</button>
+    <div id="wishBox" class="wish-card"></div>
+
+    <div id="timelineCounter" class="timeline"></div>
+
+  </section>
+
+  <!-- 4️⃣ IT'S MY BIRTHDAY PHOTO SECTION -->
+  <section class="birthday-photo-section">
+    <div class="birthday-container">
+      <h2 class="birthday-title">🎉 Happy Birthday Muskan! 🎉</h2>
+      <p class="birthday-date">31 Dec 2025</p>
+      <div class="birthday-photo-wrapper">
+        <img src="Assets/muskan1.jpeg" alt="Birthday Photo" class="birthday-photo">
+        <!-- Colorful celebration bubbles -->
+        <div class="bubble" style="--i:1;"></div>
+        <div class="bubble" style="--i:2;"></div>
+        <div class="bubble" style="--i:3;"></div>
+        <div class="bubble" style="--i:4;"></div>
+        <div class="bubble" style="--i:5;"></div>
+        <div class="bubble" style="--i:6;"></div>
+        <div class="bubble" style="--i:7;"></div>
+        <div class="bubble" style="--i:8;"></div>
+        <div class="bubble" style="--i:9;"></div>
+        <div class="bubble" style="--i:10;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5️⃣ EDUCATION JOURNEY SECTION -->
+  <section class="education-section">
+    <h2 class="animate-glow">🎓 Our Education Journey 🎓</h2>
+    <div class="edu-card">
+      <p>
+        Hum dono ne <span>same school</span> me saath padhna shuru kiya tha.
+        Classroom ki wo benches, exams ka darr, aur break me hasi —  
+        sab kuch aaj bhi yaadon me zinda hai.
+      </p>
+      <p>
+        Phir waqt badla…  
+        <span>College life</span> aayi aur domains alag ho gaye.  
+        Tumne <b>Nursing / Medical</b> ka rasta chuna,  
+        aur meri journey kisi aur direction me chal padi.
+      </p>
+      <p>
+        College ke dauran hum saath padh nahi paaye,  
+        zyada mil nahi paaye…  
+        lekin <span>miss bahut kiya</span>.
+      </p>
+      <p class="highlight">
+        Aaj samajh aata hai —  
+        distance sirf jagah ka tha,  
+        dil aur yaadein kabhi alag nahi hui 💖
+      </p>
+    </div>
+  </section>
+  
+
+
+  <!-- 6️⃣ SHAYARI & POETRY SECTION -->
+  <section class="poetry-section">
+    <h2 class="animate-glow">🌙 Shayari & Poetry for Muskan 🌙</h2>
+
+    <div class="smoke"></div>
+
+    <div class="poetry-container">
+      <div class="poetry-card">
+        <p>
+          सोचो अगर वो काजल लगा ले,<br>
+          एक दफा बस उलझे बाल सुलझा ले,<br>
+          ये जमाना अपना रुख ना बदल दे,<br>
+          हर कोई उसके साथ ना चल दे,<br>
+          ये हवाएं कहीं रुक ना जाए, उसे देखने को कहीं. 
+        </p>
+      </div>
+      <div class="poetry-card">
+        <p>
+          मेरी दुनिया में सबसे खास हो तुम,<br>
+          जन्मदिन मुबारक हो, मेरे दिल के पास हो तुम।
+        </p>
+      </div>
+      <div class="poetry-card">
+        <p>
+          कुछ दोस्त किस्मत से मिलते हैं,<br>
+          और कुछ खुद किस्मत बन जाते हैं।<br>
+          तुम वो दोस्त हो मुस्कान,<br>
+          जो हर दौर में साथ निभाते हैं 🌸
+        </p>
+      </div>
+    </div>
+
+    <div class="balloons">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- 7️⃣ MEMORY REELS SECTION -->
+  <section class="reels-section">
+    <h2 class="animate-glow">🎬 Memory Reels</h2>
+    <div class="reel-container">
+      <video class="reel-video" src="Assets/reel1.mp4" controls></video>
+      <video class="reel-video" src="Assets/reel2.mp4" controls></video>
+      <video class="reel-video" src="Assets/reel3.mp4" controls></video>
+      <video class="reel-video" src="Assets/reel4.mp4" controls></video>
+    </div>
+  </section>
+
+
+  <!-- 🔹 ABOUT SECTION -->
+<section class="about-section">
+  <h2 class="animate-glow">💖 About Me 💖</h2>
+
+  <p class="about-text">
+    I am <b>Muskan Kushwaha</b> from <b>Gopalganj, Patna, Bihar</b>.  
+    I am a dedicated <b>Nursing student</b> and a <b>part-time social media influencer</b>.  
+    Along with my studies, I am also gaining practical experience by working  
+    with a <b>surgeon doctor</b> and in a <b>medical laboratory</b>.
+  </p>
+
+  <!-- Social Links -->
+  <div class="social-links">
+    <a href="https://instagram.com/" target="_blank" class="social instagram">Instagram</a>
+    <a href="https://linkedin.com/" target="_blank" class="social linkedin">LinkedIn</a>
+    <a href="https://wa.me/919999999999" target="_blank" class="social whatsapp">WhatsApp</a>
+    <a href="https://facebook.com/" target="_blank" class="social facebook">Facebook</a>
+    <a href="https://twitter.com/" target="_blank" class="social twitter">Twitter</a>
+  </div>
+
+  <!-- Random Phone Number -->
+  <p class="random-number">
+    📞 Contact Surprise: <span id="randomPhone"></span>
+  </p>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    Made with 💖 for Muskan
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
